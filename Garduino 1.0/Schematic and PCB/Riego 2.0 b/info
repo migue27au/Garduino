@@ -1,0 +1,248 @@
+{
+  "uuid": "4473194de037df7fa90714036ca78ff7",
+  "path": "Offline/Riego 2.0 b",
+  "name": "Riego 2.0 b",
+  "content": "",
+  "created_at": "2021-02-21 18:52:37",
+  "updated_at": "2021-03-10 00:00:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "adffbe01e6d5848a8287e7d0692de348",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "18b360eb6c87422687173b4cb3de8404": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 5,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1,
+        "a4fe717ca3034468844f06ea737fb719": 1,
+        "a7291ceaee5442a999df26c55c7e675d": 3,
+        "eaa76950fd7343a1953943ee7b9978d3": 1,
+        "e3eab123787c441b897fcce25e4fe427": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LDR",
+          1,
+          "HDR-F-2.54_1X2",
+          "LDRH",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "RJ45-8",
+          1,
+          "RJ45-8",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ecfdf1063ab947f5a16f3adbbed6e019",
+            "uuid": "18b360eb6c87422687173b4cb3de8404"
+          }
+        ],
+        [
+          "330",
+          1,
+          "RTH025W",
+          "R2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "cb8201f67805495e80041846ebc6ff33",
+            "uuid": "a4fe717ca3034468844f06ea737fb719"
+          }
+        ],
+        [
+          "Humedad1H",
+          1,
+          "HDR-F-2.54_1X3",
+          "HUMEDAD1H",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "DHT",
+          1,
+          "HDR-F-2.54_1X3",
+          "DHTH",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "HUMEDAD2H",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "DHT",
+          3,
+          "CONN-TH_3P-P5.08",
+          "HUMEDAD1,DHT,HUMEDAD2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b786b51938fe4f1f9bc9380870cc425c",
+            "uuid": "e3eab123787c441b897fcce25e4fe427"
+          }
+        ],
+        [
+          "Ultrasonido",
+          1,
+          "HDR-F-2.54_1X4",
+          "ULTRASONIDO",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "Bomba2 Out",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA2_OUT",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "Bomba1 In",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA1_IN",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "Bomba2 In",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA2_IN",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "LDR",
+          1,
+          "CONN-TH_2P-P5.08",
+          "LDR",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "Bomba1 Out",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA1_OUT",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ]
+      ],
+      "updateTime": 1613931214,
+      "createTime": 1613930762,
+      "histories": [],
+      "created_at": "2021-02-21 19:06:02",
+      "updated_at": "2021-02-21 19:13:34"
+    },
+    {
+      "uuid": "0dee3593e01783e2ee0a5c9169b144b2",
+      "puuid": "4473194de037df7fa90714036ca78ff7",
+      "title": "PCB_2021-02-21_19-12-48",
+      "filename": "PCB_2021-02-21_19-12-48.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "ecfdf1063ab947f5a16f3adbbed6e019": 1,
+        "cb8201f67805495e80041846ebc6ff33": 1,
+        "f83673d09e13450d934ca6be4be5af8f": 3,
+        "b786b51938fe4f1f9bc9380870cc425c": 3,
+        "21473b495b6340c992965357d5701779": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 5
+      },
+      "BOM": [],
+      "updateTime": 1613932445,
+      "createTime": 1613931168,
+      "histories": [],
+      "created_at": "2021-02-21 19:12:48",
+      "updated_at": "2021-02-21 19:34:05"
+    }
+  ],
+  "sort": [],
+  "title": "Riego 2.0 b",
+  "foldername": "Riego 2.0 b",
+  "schfilename": "Riego 2.0 b.json",
+  "schfilemtime": 1613931214793
+}

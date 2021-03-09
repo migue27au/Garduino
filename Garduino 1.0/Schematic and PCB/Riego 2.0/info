@@ -1,0 +1,265 @@
+{
+  "uuid": "9d755e9af4933c343587991693dc8dfc",
+  "path": "Offline/Riego 2.0",
+  "name": "Riego 2.0",
+  "content": "",
+  "created_at": "2021-02-21 17:06:42",
+  "updated_at": "2021-02-21 18:46:35",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "42734d6afec86e34a723d0df2603811f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "93b05b65dc854414b3026f971a535e44": 1,
+        "146e75363251e035203be60c60650418": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "844c8e4dca3348dca9db7fa4ef09bd9f": 2,
+        "eaa76950fd7343a1953943ee7b9978d3": 1,
+        "0209bbd1487c4d38a8d1c093254a5b1c": 1,
+        "80957f9939564ba1998343248818e7a8": 1,
+        "11711463be164ac3bcfaca44cd1e5d6b": 1,
+        "a4fe717ca3034468844f06ea737fb719": 3,
+        "a0140daf545c45c8b986fdb22cd04582": 2,
+        "3141f94016cf495fb7cd5faa3c198222": 1,
+        "18b360eb6c87422687173b4cb3de8404": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RJ45-8",
+          1,
+          "RJ45-8",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ecfdf1063ab947f5a16f3adbbed6e019",
+            "uuid": "18b360eb6c87422687173b4cb3de8404"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "ARDUINO_NANO",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e1efe7fde24349efb5f0b333d24cac53",
+            "uuid": "93b05b65dc854414b3026f971a535e44"
+          }
+        ],
+        [
+          "micro USBFemale",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro USBFemale",
+            "BOM_Supplier Part": "C10418",
+            "puuid": "0213856b1ac9498c9a987141e7914387",
+            "uuid": "146e75363251e035203be60c60650418"
+          }
+        ],
+        [
+          "CR2032",
+          1,
+          "BATTERY-1",
+          "B1",
+          {
+            "BOM_Supplier Part": "C70376",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "BS-2-1",
+            "puuid": "5bfb4b5fb8e7f41c129f3aa08c89d13d",
+            "uuid": "0209bbd1487c4d38a8d1c093254a5b1c"
+          }
+        ],
+        [
+          "Bomba2",
+          1,
+          "TO-220AB",
+          "Q2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a5b6f2e0aa0f463caaf63bada8b278f4",
+            "uuid": "844c8e4dca3348dca9db7fa4ef09bd9f"
+          }
+        ],
+        [
+          "Bomba1",
+          1,
+          "TO-220AB",
+          "Q1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a5b6f2e0aa0f463caaf63bada8b278f4",
+            "uuid": "844c8e4dca3348dca9db7fa4ef09bd9f"
+          }
+        ],
+        [
+          "JOYSTICK",
+          1,
+          "JOYSTICK",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "58f3711fbb854297a091d937ffbe3f52",
+            "uuid": "3141f94016cf495fb7cd5faa3c198222"
+          }
+        ],
+        [
+          "DS1302",
+          1,
+          "DIP-08-300-ELL",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "47aceec24d4b47059070391054a4312e",
+            "uuid": "80957f9939564ba1998343248818e7a8"
+          }
+        ],
+        [
+          "32.768KHz",
+          1,
+          "OSC-TH_BD3.0-P1.10-D0.4",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KDS",
+            "BOM_Manufacturer Part": "DT-38 32.768KHz",
+            "BOM_Supplier Part": "C93228",
+            "puuid": "c3bccdaa1e344a14b4cc9e20d29cbcd9",
+            "uuid": "11711463be164ac3bcfaca44cd1e5d6b"
+          }
+        ],
+        [
+          "330",
+          2,
+          "RTH025W",
+          "R3,R2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "cb8201f67805495e80041846ebc6ff33",
+            "uuid": "a4fe717ca3034468844f06ea737fb719"
+          }
+        ],
+        [
+          "1000",
+          1,
+          "RTH025W",
+          "R1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "cb8201f67805495e80041846ebc6ff33",
+            "uuid": "a4fe717ca3034468844f06ea737fb719"
+          }
+        ],
+        [
+          "LED",
+          2,
+          "LD260",
+          "LED2,LED1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "04155443a3964815a1dc0581946ccf47",
+            "uuid": "a0140daf545c45c8b986fdb22cd04582"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x4",
+          1,
+          "HDR-F-2.54_1X4",
+          "LCD1",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "Bomba1",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "Bomba2",
+          1,
+          "CONN-TH_2P-P5.08",
+          "BOMBA2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ]
+      ],
+      "updateTime": 1613929444,
+      "createTime": 1613923602,
+      "histories": [],
+      "created_at": "2021-02-21 17:06:42",
+      "updated_at": "2021-02-21 18:44:04"
+    },
+    {
+      "uuid": "1b002097171241aa0d95bcc516ba89bc",
+      "puuid": "9d755e9af4933c343587991693dc8dfc",
+      "title": "PCB_2021-02-21_17-44-04",
+      "filename": "PCB_2021-02-21_17-44-04.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e1efe7fde24349efb5f0b333d24cac53": 1,
+        "0213856b1ac9498c9a987141e7914387": 1,
+        "5bfb4b5fb8e7f41c129f3aa08c89d13d": 1,
+        "a5b6f2e0aa0f463caaf63bada8b278f4": 2,
+        "58f3711fbb854297a091d937ffbe3f52": 1,
+        "47aceec24d4b47059070391054a4312e": 1,
+        "c3bccdaa1e344a14b4cc9e20d29cbcd9": 1,
+        "cb8201f67805495e80041846ebc6ff33": 3,
+        "04155443a3964815a1dc0581946ccf47": 2,
+        "21473b495b6340c992965357d5701779": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "ecfdf1063ab947f5a16f3adbbed6e019": 1
+      },
+      "BOM": [],
+      "updateTime": 1613929595,
+      "createTime": 1613925844,
+      "histories": [],
+      "created_at": "2021-02-21 17:44:04",
+      "updated_at": "2021-02-21 18:46:35"
+    }
+  ],
+  "sort": [],
+  "title": "Riego 2.0",
+  "foldername": "Riego 2.0",
+  "schfilename": "Riego 2.0.json",
+  "schfilemtime": 1613929444875
+}
